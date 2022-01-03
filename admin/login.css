@@ -1,0 +1,69 @@
+body{
+	font-family: 'Dancing Script', cursive;
+	background: url('../img/bg-lession.jpg') no-repeat;
+	background-size: cover;
+}
+
+.login-form{
+	width: 100%;
+	margin: 0 auto;
+}
+
+ #login{
+ 	width: 450px;
+ 	margin: 0px auto;
+ 	margin-left: -50px;
+ 	background-color: #0000A9;
+ 	
+ 	border-radius: 5px;
+ 	margin-top: 50px;
+ 	box-shadow: 1px 1px 1px #000088;
+ }
+
+.login-title{
+	text-align: center;
+}
+
+.login-title h5{
+	font-size: 20px;
+	padding-top: 80px;
+	color: white;
+}
+
+.login-content{
+	color: white;
+}
+
+.login-footer{
+	padding-bottom: 80px;
+}
+input[name="adName"],input[name="adPass"]{
+	width: 80%;
+	height: 45px;
+	margin: 0 auto;
+	background-color: #000095;
+	border: none;
+	color: white;
+	padding-left: 20px;
+}
+input[name="adName"]::placeholder,input[name="adPass"]::placeholder{
+	color: white;
+}
+#txtAdName,#txtAdPass{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 14px;
+	margin-left: 12%;
+	margin-top: 10px;
+}
+#ad-sm{
+	display: block;
+	width: 80%;
+	height: 45px;
+	background-color: #FF0040;
+	margin: 0 auto;
+	font-size: 13px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}

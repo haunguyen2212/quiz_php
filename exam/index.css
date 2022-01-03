@@ -1,0 +1,129 @@
+body{
+	font-family: 'Time New Roman';
+}
+a{
+	text-decoration: none;
+}
+.navbar{
+	background-color: #0033DD;
+}
+.navbar-brand{
+	font-size: 25px;
+}
+#userlogin{
+	font-size:12px;
+	line-height: 20px;
+}
+#userlogout{
+	font-size:12px;
+}
+#login{
+	font-size: 15px;
+	line-height: 30px;
+}
+#img-login{
+	 margin-left: -20px;
+	 margin-top: -40px
+}
+#blog{
+	width: 100%;
+	min-height: 300px;
+	margin: 0 auto;
+	background: url('../img/banner.png') no-repeat top center;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	font-family: emoji;
+	padding-top: 50px;
+	font-weight: bold;
+	font-size: 18px;
+	text-shadow: 3px 3px 5px #000066;
+}
+#blog h1{
+	font-size: 50px;
+	font-weight: bold;
+
+}
+.feature{
+	margin-top: -82px
+}
+.feature .relative {
+	min-height: 350px;
+	background-color: white;
+	margin-left: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 1px 1px 5px;
+}
+.feature .relative:hover{
+	border: gold 2px solid;
+	margin-top: -2px;
+	margin-bottom: -2px;
+}
+.feature .relative img{
+	height: 110px;
+	margin-bottom: 10px;
+}
+.feature .relative p{
+	height: 100px;
+}
+#lession{
+	font-family: "Nunito", sans-serif;
+	font-size: 15px;
+	background: url('../img/bg-lession.jpg') no-repeat;
+	background-size: cover;
+}
+#help .card .card-header{
+	background-color: #3A5FCD;
+}
+.modal-content{
+	font-family: 'Montserrat';
+}
+.modal-title{
+	font-size: 25px;
+	margin-top: 30px;
+	text-align: center;
+	color: #1161ed; 
+}
+.form-label{
+	letter-spacing: 1px;
+	font-size: 13px;
+	margin-left: 12%;
+	color: #828282;
+}
+input[name="loginName"],input[name="loginPass"]{
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+#txtName,#txtPass{
+	width: 80%;
+	margin: 0 auto;
+	margin-left: 12%;
+	margin-top: 10px;
+}
+#sm{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	height: 40px;
+	border-radius: 20px;
+	margin-top: 30px;
+	background-color: #1161ed;
+	border: none;
+	color: white;
+	margin-bottom: 50px;
+}
+#sm:hover{
+	font-weight: bold;
+	font-size: 17px;
+}
+#form-change-pass{
+	background-color: #DDDDDD;
+}
+footer{
+	position: relative;
+	z-index: 600;
+	background-color: #0033DD;
+}

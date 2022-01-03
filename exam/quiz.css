@@ -1,0 +1,50 @@
+body{
+	font-size: 15px;
+	font-family: Times New Roman;
+}
+a{
+	text-decoration: none;
+}
+#time-header{
+	font-family: Comic Sans MS, sans-serif;
+	font-size: 16px;
+	margin-top: 10px;
+	color: #000099;
+	font-weight: bold;
+}
+#count-down{
+	font-family: Comic Sans MS, sans-serif;
+}
+#list-answer{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.btn-answer{
+	width: 32px;
+	margin: 1.5px;
+	border: 1px solid #BEBEBE;
+}
+#finish{
+	font-size: 13px;
+	font-weight: bold;
+}
+#finish, #result{
+	margin-bottom: 10px;
+}
+input[type="radio"]{
+	vertical-align: middle;
+}
+label{
+	border-radius: 2px;
+}
+#tg{
+	text-align:  center;
+	font-size: 18px;
+
+}
+
+.btn-page{
+	margin-left: 5px;
+	margin-bottom: 10px;
+}

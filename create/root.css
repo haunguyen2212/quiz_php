@@ -1,0 +1,29 @@
+body{
+	font-style: 14px;
+	font-family: 'Time New Roman';
+	background: url('../img/bg-lession.jpg') no-repeat;
+	background-size: cover;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: white;
+}
+.card{
+	width: 40%;
+	margin: 0px auto;
+	margin-top: 100px;
+}
+.card-header{
+	background-color: #0033DD;
+}
+.label{
+	margin-top: 5px;
+	margin-bottom: -1px;
+}
+#create, #reset{
+	margin-top: 20px;
+	margin-left: 5px;
+}
